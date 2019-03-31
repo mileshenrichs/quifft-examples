@@ -42,11 +42,11 @@ public class UsingZeroPadding {
 
         // inspect amplitudes of individual frequency bins in the first frame
         FrequencyBin firstBin = fftFrames[0].bins[0];
-        System.out.println("The first bin, located at " + Math.round(firstBin.frequency) + " Hz, has a relative " +
+        System.out.println("The first bin, located at " + Math.round(firstBin.frequency) + " Hz, has an " +
                 "amplitude of " + Math.round(firstBin.amplitude) + " dB.");
         FrequencyBin mostPowerfulBin = fftFrames[0].bins[14]; // bin closest to 600 Hz
-        System.out.println("The 14th bin, located at " + Math.round(mostPowerfulBin.frequency) + " Hz, has a " +
-                "relative amplitude of " + Math.round(mostPowerfulBin.amplitude) + " dB.");
+        System.out.println("The 14th bin, located at " + Math.round(mostPowerfulBin.frequency) + " Hz, has an " +
+                "amplitude of " + Math.round(mostPowerfulBin.amplitude) + " dB.");
     }
 
     private UsingZeroPadding() {
