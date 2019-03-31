@@ -20,6 +20,18 @@
             <version>0.1.0</version>
             <systemPath>C:\Users\miles\.m2\repository\org\quifft\quifft\0.1.0\quifft-0.1.0.jar</systemPath>
         </dependency>
+
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jcommon</artifactId>
+            <version>1.0.24</version>
+        </dependency>
     </dependencies>
 
 </project>
