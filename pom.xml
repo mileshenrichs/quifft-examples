@@ -17,8 +17,7 @@
         <dependency>
             <groupId>org.quifft</groupId>
             <artifactId>quifft</artifactId>
-            <version>0.1.0</version>
-            <systemPath>C:\Users\miles\.m2\repository\org\quifft\quifft\0.1.0\quifft-0.1.0.jar</systemPath>
+            <version>0.1.1</version>
         </dependency>
 
         <dependency>
